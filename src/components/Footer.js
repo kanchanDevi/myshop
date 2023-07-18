@@ -5,7 +5,7 @@ const Footer=()=>{
     return(
        <div className="mb-2">
          <Card className="text-center">
-        <Card.Footer className="text-muted">@2023Copyright  </Card.Footer>
+        <Card.Footer className="text-muted">@ 2023 Copyright  </Card.Footer>
       </Card>
        </div>
     )

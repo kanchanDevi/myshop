@@ -2,9 +2,6 @@ import Card from 'react-bootstrap/Card';
 
 
 const Shimmer = () => {
-
-   
-
     return (
       <div className="d-flex justify-content-center align-items-center flex-wrap mt-5">
         {Array(20)
