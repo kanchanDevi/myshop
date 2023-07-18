@@ -11,6 +11,7 @@ import Header from "./components/Header";
 import Error from "./components/Error";
 import { Provider } from "react-redux";
 import store from "./Utils/store";
+import Footer from './components/Footer'
 
 const Head = () => {
   return (
@@ -18,6 +19,7 @@ const Head = () => {
      <Provider store={store}>
       <Header />
       <Outlet />
+      <Footer/>
       </Provider>
     
     </>
